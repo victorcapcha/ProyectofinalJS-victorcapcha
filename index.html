@@ -1,0 +1,329 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Document</title>
+  <link rel="stylesheet" href="style.css" />
+  <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+
+<body>
+  <header class="header">
+    <div class="menu container">
+      <a href="#" class="logo"></a>
+      <input type="heckbox" id="menu" />
+      <label for="menu">
+        <img src="img/menu.png" class="menu-icono" alt="" />
+      </label>
+      <nav class="navbar">
+        <ul>
+          <li><a href="#">Inicio</a></li>
+          <li><a href="#">Servicios</a></li>
+          <li><a href="#">Producctos</a></li>
+          <li><a href="#">Contacto</a></li>
+        </ul>
+      </nav>
+      <div>
+        <ul>
+          <li class="submenu">
+            <img src="img/car.svg" id="img-carrito" alt="">
+            <div id="carrito">
+              <table id="lista-carrito">
+                <thead>
+                  <tr>
+                    <th>Imagen</th>
+                    <th>Nombre</th>
+                    <th>Precio</th>
+                  </tr>
+                </thead>
+                <tbody></tbody>
+              </table>
+              <a href="#" id="vaciar-carrito" class="btn-2">Vaciar Carrito</a>
+            </div>
+          </li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="header-content container">
+      <div class="header-txt">
+        <h1>Tu comida favorita</h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+        </p>
+        <a href="#" class="btn-1">seccion menu</a>
+      </div>
+    </div>
+
+  </header>
+
+  <!-- iconos -->
+  <section class="icons">
+    <div class="icon">
+      <img src="img/i1.svg" alt="">
+    </div>
+    <div class="icon">
+      <img src="img/i2.svg" alt="">
+    </div>
+    <div class="icon">
+      <img src="img/i3.svg" alt="">
+    </div>
+    <div class="icon">
+      <img src="img/i4.svg" alt="">
+    </div>
+    <div class="icon">
+      <img src="img/i5.svg" alt="">
+    </div>
+    <div class="icon">
+      <img src="img/i6.svg" alt="">
+    </div>
+    <div class="icon">
+      <img src="img/i7.svg" alt="">
+    </div>
+    <div class="icon">
+      <img src="img/i8.svg" alt="">
+    </div>
+    <div class="icon">
+      <img src="img/i9.svg" alt="">
+    </div>
+    <div class="icon">
+      <img src="img/i10.svg" alt="">
+    </div>
+  </section>
+
+  <!-- cruerpo cards pizzas -->
+  <section class="products container" id="lista-1">
+    <h2>Pizzas</h2>
+    <div class="products-content">
+      <!-- card1 -->
+      <div class="product">
+        <img src="img/pi1.png" alt="">
+        <div class="product-txt">
+          <h3>Pizza de pepperoni</h3>
+          <p>Calidad premium</p>
+          <p class="precio">$1500</p>
+          <a href="#" class="agregar-carrito btn-2" data-id="1">Agreagr al carrito</a>
+        </div>
+      </div>
+
+      <!-- card2 -->
+      <div class="product">
+        <img src="img/pi2.png" alt="">
+        <div class="product-txt">
+          <h3>Pizza cuatro estaciones</h3>
+          <p>Calidad premium</p>
+          <p class="precio">$2000</p>
+          <a href="#" class="agregar-carrito btn-2" data-id="2">Agreagr al carrito</a>
+        </div>
+      </div>
+
+      <!-- card3 -->
+      <div class="product">
+        <img src="img/pi3.png" alt="">
+        <div class="product-txt">
+          <h3>Pizza con champiñones</h3>
+          <p>Calidad premium</p>
+          <p class="precio">$1800</p>
+          <a href="#" class="agregar-carrito btn-2" data-id="3">Agreagr al carrito</a>
+        </div>
+      </div>
+
+      <!-- card4 -->
+      <div class="product">
+        <img src="img/pi4.png" alt="">
+        <div class="product-txt">
+          <h3>Pizza margarita</h3>
+          <p>Calidad premium</p>
+          <p class="precio">$1600</p>
+          <a href="#" class="agregar-carrito btn-2" data-id="4">Agreagr al carrito</a>
+        </div>
+      </div>
+
+      <!-- card5 -->
+      <div class="product">
+        <img src="img/pi5.png" alt="">
+        <div class="product-txt">
+          <h3>Pizza hawaiana</h3>
+          <p>Calidad premium</p>
+          <p class="precio">$1900</p>
+          <a href="#" class="agregar-carrito btn-2" data-id="5">Agreagr al carrito</a>
+        </div>
+      </div>
+
+      <!-- card6 -->
+      <div class="product">
+        <img src="img/pi6.png" alt="">
+        <div class="product-txt">
+          <h3>Pizza napolitana</h3>
+          <p>Calidad premium</p>
+          <p class="precio">$2200</p>
+          <a href="#" class="agregar-carrito btn-2" data-id="6">Agreagr al carrito</a>
+        </div>
+      </div>
+
+      <!-- card7 -->
+      <div class="product">
+        <img src="img/pi7.png" alt="">
+        <div class="product-txt">
+          <h3>Pizza fugazza</h3>
+          <p>Calidad premium</p>
+          <p class="precio">$2100</p>
+          <a href="#" class="agregar-carrito btn-2" data-id="7">Agreagr al carrito</a>
+        </div>
+      </div>
+
+      <!-- card8 -->
+      <div class="product">
+        <img src="img/pi8.png" alt="">
+        <div class="product-txt">
+          <h3>Pizza marinara</h3>
+          <p>Calidad premium</p>
+          <p class="precio">$1200</p>
+          <a href="#" class="agregar-carrito btn-2" data-id="8">Agreagr al carrito</a>
+        </div>
+      </div>
+
+      <!-- card9 -->
+      <div class="product">
+        <img src="img/pi9.png" alt="">
+        <div class="product-txt">
+          <h3>Pizza 4 Quesos</h3>
+          <p>Calidad premium</p>
+          <p class="precio">$900</p>
+          <a href="#" class="agregar-carrito btn-2" data-id="9">Agreagr al carrito</a>
+        </div>
+      </div>
+    </div>
+
+  </section>
+
+  <!-- cruerpo cards ensaladas -->
+  <section class="products ontainer" id="lista-2">
+    <h2>Ensaladas</h2>
+    <div class="products-content">
+      <!-- card1 -->
+      <div class="product">
+        <img src="img/e1.png" alt="">
+        <div class="product-txt">
+          <h3>Ensalada mixta</h3>
+          <p>Calidad premium</p>
+          <p class="precio">$800</p>
+          <a href="#" class="agregar-carrito btn-2" data-id="10">Agreagr al carrito</a>
+        </div>
+      </div>
+
+      <!-- card2 -->
+      <div class="product">
+        <img src="img/e2.png" alt="">
+        <div class="product-txt">
+          <h3>Ensalada caprese</h3>
+          <p>Calidad premium</p>
+          <p class="precio">$1200</p>
+          <a href="#" class="agregar-carrito btn-2" data-id="11">Agreagr al carrito</a>
+        </div>
+      </div>
+
+      <!-- card3 -->
+      <div class="product">
+        <img src="img/e3.png" alt="">
+        <div class="product-txt">
+          <h3>Ensalada waldorf</h3>
+          <p>Calidad premium</p>
+          <p class="precio">$1500</p>
+          <a href="#" class="agregar-carrito btn-2" data-id="12">Agreagr al carrito</a>
+        </div>
+      </div>
+
+      <!-- card4 -->
+      <div class="product">
+        <img src="img/e4.png" alt="">
+        <div class="product-txt">
+          <h3>Ensalada griega</h3>
+          <p>Calidad premium</p>
+          <p class="precio">$900</p>
+          <a href="#" class="agregar-carrito btn-2" data-id="13">Agreagr al carrito</a>
+        </div>
+      </div>
+
+      <!-- card5 -->
+      <div class="product">
+        <img src="img/e5.png" alt="">
+        <div class="product-txt">
+          <h3>Ensalada césar</h3>
+          <p>Calidad premium</p>
+          <p class="precio">$1300</p>
+          <a href="#" class="agregar-carrito btn-2" data-id="14">Agreagr al carrito</a>
+        </div>
+      </div>
+      <!-- card6 -->
+      <div class="product">
+        <img src="img/e6.png" alt="">
+        <div class="product-txt">
+          <h3>Ensalada mediterránea</h3>
+          <p>Calidad premium</p>
+          <p class="precio">$1000</p>
+          <a href="#" class="agregar-carrito btn-2" data-id="15">Agreagr al carrito</a>
+        </div>
+      </div>
+    </div>
+
+  </section>
+
+   <!--footer-->
+   <footer>
+    <div class="container-fluid">
+      <div class="row">
+        <!--copyright-->
+        <div class="col-xs-12 col-lg-6">
+          <p>
+            <b>Copyright | </b>2023 Todos los derechos reservados. Ciudad
+            Autónoma de Buenos Aires, Argentina.
+          </p>
+        </div>
+        <!--redes-->
+        <div class="col-xs-12 col-lg-6">
+          <div>
+            <h5>Siguenos en nuestras redes</h5>
+          </div>
+          <div class="main">
+            <div class="icon">
+              <svg heigth="80" width="80">
+                <circle cx="40" cy="40" r="35" stroke="white" stroke-width="4" fill="none"></circle>
+              </svg>
+              <a href="https://www.instagram.com/" target="_blank"><i class="bx bxl-instagram"></i></a>
+            </div>
+            <div class="icon">
+              <svg heigth="80" width="80">
+                <circle cx="40" cy="40" r="35" stroke="white" stroke-width="4" fill="none"></circle>
+              </svg>
+              <a href="https://es-la.facebook.com/" target="_blank"><i class="bx bxl-facebook-circle"></i></a>
+            </div>
+            <div class="icon">
+              <svg heigth="80" width="80">
+                <circle cx="40" cy="40" r="35" stroke="white" stroke-width="4" fill="none"></circle>
+              </svg>
+              <a href="https://web.whatsapp.com/" target="_blank"><i class="bx bxl-whatsapp"></i></a>
+            </div>
+            <div class="icon">
+              <svg heigth="80" width="80">
+                <circle cx="40" cy="40" r="35" stroke="white" stroke-width="4" fill="none"></circle>
+              </svg>
+              <a href="https://twitter.com/" target="_blank"><i class="bx bxl-twitter"></i></a>
+            </div>
+            <div class="icon">
+              <svg heigth="80" width="80">
+                <circle cx="40" cy="40" r="35" stroke="white" stroke-width="4" fill="none"></circle>
+              </svg>
+              <a href="https://www.youtube.com/" target="_blank"><i class='bx bxl-youtube'></i></a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <script src="app.js"></script>
+</body>
+
+</html>
