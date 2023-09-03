@@ -1,0 +1,107 @@
+[
+  {
+      "id": 1,
+      "nombre": "Pizza de pepperoni",
+      "precio": 1500,
+      "imagen": "img/pi1.png",
+      "categoria": "Pizzas"
+  },
+  {
+      "id": 2,
+      "nombre": "Pizza cuatro estaciones",
+      "precio": 2000,
+      "imagen": "img/pi2.png",
+      "categoria": "Pizzas"
+  },
+  {
+      "id": 3,
+      "nombre": "Pizza con champiñones",
+      "precio": 1800,
+      "imagen": "img/pi3.png",
+      "categoria": "Ensaladas"
+  },
+  {
+      "id": 4,
+      "nombre": "Pizza margarita",
+      "precio": 1600,
+      "imagen": "img/pi4.png",
+      "categoria": "Pizzas"
+  },
+  {
+      "id": 5,
+      "nombre": "Pizza hawaiana",
+      "precio": 1900,
+      "imagen": "img/pi5.png",
+      "categoria": "Pizzas"
+  },
+  {
+      "id": 6,
+      "nombre": "Pizza napolitana",
+      "precio": 2200,
+      "imagen": "img/pi6.png",
+      "categoria": "Pizzas"
+  },
+  {
+      "id": 7,
+      "nombre": "Pizza fugazza",
+      "precio": 170,
+      "imagen": "img/pi7.png",
+      "categoria": "Pizzas"
+  },
+  {
+      "id": 8,
+      "nombre": "Pizza marinara",
+      "precio": 1200,
+      "imagen": "img/pi8.png",
+      "categoria": "Pizzas"
+  },
+  {
+      "id": 9,
+      "nombre": "Pizza 4 Queso",
+      "precio": 900,
+      "imagen": "img/pi9.png",
+      "categoria": "Pizzas"
+  },
+  {
+      "id": 10,
+      "nombre": "Ensalada mixta",
+      "precio": 800,
+      "imagen": "img/e1.png",
+      "categoria": "Ensaladas"
+  },
+  {
+      "id": 11,
+      "nombre": "Ensalada capres",
+      "precio": 1200,
+      "imagen": "img/e2.png",
+      "categoria": "Ensaladas"
+  },
+  {
+      "id": 12,
+      "nombre": "Ensalada waldorf",
+      "precio": 1500,
+      "imagen": "img/e3.png",
+      "categoria": "Ensaladas"
+  },
+  {
+      "id": 13,
+      "nombre": "Ensalada Griega",
+      "precio": 900,
+      "imagen": "img/e4.png",
+      "categoria": "Ensaladas"
+  },
+  {
+      "id": 14,
+      "nombre": "Ensalada césar",
+      "precio": 1300,
+      "imagen": "img/e5.png",
+      "categoria": "Ensaladas"
+  },
+  {
+      "id": 15,
+      "nombre": "Ensalada mediterránea",
+      "precio": 1000,
+      "imagen": "img/e6.png",
+      "categoria": "Ensaladas"
+  }
+]

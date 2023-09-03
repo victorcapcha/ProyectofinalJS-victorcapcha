@@ -13,7 +13,7 @@
   <header class="header">
     <div class="menu container">
       <a href="#" class="logo"></a>
-      <input type="heckbox" id="menu" />
+      <input type="checkbox" id="menu" />
       <label for="menu">
         <img src="img/menu.png" class="menu-icono" alt="" />
       </label>
@@ -50,8 +50,6 @@
     <div class="header-content container">
       <div class="header-txt">
         <h1>Tu comida favorita</h1>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
-        </p>
         <a href="#" class="btn-1">seccion menu</a>
       </div>
     </div>
@@ -92,6 +90,22 @@
     </div>
   </section>
 
+  <!-- formulario -->
+  <div id="formulario-compra">
+    <h2>Ingresa tus datos personales:</h2>
+    <form id="datos-compra">
+      <label for="nombre">Nombre:</label>
+      <input type="text" id="nombre" required>
+      <label for="direccion">Dirección:</label>
+      <input type="text" id="direccion" required>
+      <label for="telefono">Teléfono:</label>
+      <input type="tel" id="telefono" required>
+      <button type="submit" id="finalizar-compra">Finalizar Compra</button>
+    </form>
+  </div>
+  <div id="mensaje-compra" style="display: none;">
+  <p>¡Gracias por tu compra! Tu pedido ha sido procesado con éxito.</p>
+</div>
   <!-- cruerpo cards pizzas -->
   <section class="products container" id="lista-1">
     <h2>Pizzas</h2>
